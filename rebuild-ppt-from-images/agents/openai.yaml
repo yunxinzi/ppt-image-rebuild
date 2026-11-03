@@ -1,0 +1,13 @@
+interface:
+  display_name: PPT图稿还原与动画预规划 V1.6
+  short_description: 完整图稿审核后分层重建PPT，提前规划动画并分项验证还原和编辑效果
+  default_prompt: 使用 $rebuild-ppt-from-images，按V1.6流程制作PPT，先提供八套图文风格预览，确认完整图稿后再分层拼装。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
